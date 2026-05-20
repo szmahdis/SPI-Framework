@@ -16,6 +16,13 @@ The architectural seperation of the translator layer decouples SPI from SFS fram
   <p align="center"><em>Project Structure</em></p>
 </p>
 
+
+<p align="center">
+  <img src="images/sfs-to-spi.gif" alt=sfs-to-spi" width="700">
+  <p align="center"><em>Prepare input for SPI framework</em></p>
+</p>
+
+
 ## Summary of My Contribution
 
 * Proposed a formal method to represent level design patterns
@@ -34,11 +41,6 @@ The architectural seperation of the translator layer decouples SPI from SFS fram
   <img src="images/MP_walkable.png" alt="walkable" width="45%">
    <img src="images/MP_los.png" alt="los" width="45%">
   <p align="center"><em>Generated Location Graph</em></p>
-</p>
-
-<p align="center">
-  <img src="images/sfs-to-spi.gif" alt=sfs-to-spi" width="700">
-  <p align="center"><em>Prepare input for SPI framework</em></p>
 </p>
 
 <p align="center">
