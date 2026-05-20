@@ -1,0 +1,13 @@
+{
+  "name": "com.szmahdis.stuctrural-pattern-identifier",
+  "version": "0.1.0",
+  "displayName": "Structural Pattern Identifier",
+  "description": "A formalization-based tool for detecting level design patterns in gamespaces.",
+  "unity": "6000.3",
+  "author": {
+    "name": "Mahdis Sabzevarzadeh",
+    "email": "szmahdis@gmail.com"
+  },
+  "dependencies": {
+  }
+}

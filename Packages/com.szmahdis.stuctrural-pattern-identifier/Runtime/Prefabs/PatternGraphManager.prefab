@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5928880395753895372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6235733285823628181}
+  - component: {fileID: 8744743380127630711}
+  m_Layer: 0
+  m_Name: PatternGraphManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6235733285823628181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928880395753895372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -405.65222, y: -0, z: -23.94467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8744743380127630711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5928880395753895372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63574100bb2c4a749b40ee124732b372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: StructuralPatternIdentifier.Runtime::StructrualPatternIdentifier.PatternGraphManager
+  nodes:
+  - id: a0
+    attributes: []
+    walkableRelations:
+    - _nodeId: a1
+      attributes: []
+    - _nodeId: a6
+      attributes: []
+    - _nodeId: a3
+      attributes: []
+    lineOfSightRelations: []
+  - id: a1
+    attributes: []
+    walkableRelations:
+    - _nodeId: a0
+      attributes: []
+    - _nodeId: a2
+      attributes: []
+    lineOfSightRelations: []
+  - id: a2
+    attributes: []
+    walkableRelations:
+    - _nodeId: a8
+      attributes: []
+    - _nodeId: a1
+      attributes: []
+    lineOfSightRelations: []
+  - id: a3
+    attributes:
+    - {fileID: 0}
+    walkableRelations:
+    - _nodeId: a0
+      attributes: []
+    lineOfSightRelations: []
+  - id: a4
+    attributes: []
+    walkableRelations:
+    - _nodeId: a8
+      attributes: []
+    lineOfSightRelations: []
+  - id: a5
+    attributes: []
+    walkableRelations:
+    - _nodeId: a8
+      attributes: []
+    - _nodeId: a7
+      attributes: []
+    lineOfSightRelations: []
+  - id: a6
+    attributes: []
+    walkableRelations:
+    - _nodeId: a0
+      attributes: []
+    lineOfSightRelations: []
+  - id: a7
+    attributes:
+    - {fileID: 0}
+    walkableRelations:
+    - _nodeId: a5
+      attributes: []
+    lineOfSightRelations: []
+  - id: a8
+    attributes: []
+    walkableRelations:
+    - _nodeId: a2
+      attributes: []
+    - _nodeId: a4
+      attributes: []
+    - _nodeId: a5
+      attributes: []
+    lineOfSightRelations: []
