@@ -6,7 +6,7 @@ namespace StructrualPatternIdentifier
     [System.Serializable]
     public class LineOfSightEntry
     {
-        //public Anchor target; // Requires SFS Package
+        public Anchor target; // Requires SFS Package
     }
 
     [AddComponentMenu("SPI/Relations/Line of Sight Relation")]
@@ -26,8 +26,8 @@ namespace StructrualPatternIdentifier
             var result = new List<string>();
             foreach (var entry in _entries)
             {
-                //if (entry.target == null) continue;
-                //result.Add((entry.target.GetUniqueId()));
+                if (entry.target == null) continue;
+                result.Add((entry.target.GetUniqueId()));
             }
             return result;
         }
